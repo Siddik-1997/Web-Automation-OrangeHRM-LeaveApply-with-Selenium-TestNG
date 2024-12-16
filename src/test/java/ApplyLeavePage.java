@@ -34,7 +34,7 @@ public class ApplyLeavePage {
         Thread.sleep(200);
         ApplyBtn.click();
     }
-    public void oneDayLeave(String formDate, String toDate, String comments) throws InterruptedException {
+    public void oneDayLeave(String fromDate, String toDate, String comments) throws InterruptedException {
 
         //Selecting Leave Type
         dropDown.get(0).click();
@@ -43,7 +43,7 @@ public class ApplyLeavePage {
         dropDown.get(0).sendKeys(Keys.ENTER);
 
         // Select Date
-        inputField.get(1).sendKeys(formDate);
+        inputField.get(1).sendKeys(fromDate);
         inputField.get(2).sendKeys(Keys.CONTROL + "a" , Keys.BACK_SPACE);
         inputField.get(2).sendKeys(toDate);
 
