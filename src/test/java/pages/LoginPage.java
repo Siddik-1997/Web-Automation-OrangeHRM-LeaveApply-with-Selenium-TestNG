@@ -1,3 +1,5 @@
+package pages;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,6 +13,14 @@ public class LoginPage {
     @FindBy(className = "oxd-button")
     WebElement loginBtn;
 
+    @FindBy(className = "oxd-userdropdown-tab")
+    WebElement profileBtn;
+
+    @FindBy(xpath = "//a[contains(text(),'Logout')]")
+    WebElement logOut;
+    //@FindBy(partialLinkText = "Logout")
+    //public WebElement logOutLink;
+
     public LoginPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
@@ -19,6 +29,11 @@ public class LoginPage {
         adminCredential.get(0).sendKeys(userName);
         adminCredential.get(1).sendKeys(password);
         loginBtn.click();
+    }
+
+    public void doLogout() {
+        profileBtn.click();
+        logOut.click();
     }
 
 
