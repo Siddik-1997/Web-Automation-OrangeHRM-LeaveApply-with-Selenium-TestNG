@@ -29,7 +29,7 @@ TestNG is a testing framework for Java that is designed to be more flexible and 
 ```allure serve allure-results```
 
 
-## Test case check list based on the Scenerio:
+## Test case check lists based on the Scenerio:
 
 - Verify login functionality doesn't works with invalid credentials
 - Verify login functionality works properly with valid credentials.
