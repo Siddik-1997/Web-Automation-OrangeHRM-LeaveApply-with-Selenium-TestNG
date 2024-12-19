@@ -54,7 +54,8 @@ public class TestRunner extends Setup {
     @Test(priority = 5, description = "Verify that leave cannot be applied on Vacation or Off dates.")
     public void cantApplyLeave() throws InterruptedException {
         applyLeavePage = new ApplyLeavePage(driver);
-        applyLeavePage.oneDayLeave("2024-25-12", "2024-28-2022", "Apply leave request on vacation/Off date");
+        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/leave/applyLeave");
+        applyLeavePage.oneDayLeave("2024-25-12", "2024-25-12", "Apply leave request on vacation/Off date");
         Thread.sleep(200);
     }
 
