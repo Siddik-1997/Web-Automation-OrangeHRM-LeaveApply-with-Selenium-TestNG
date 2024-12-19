@@ -1,4 +1,4 @@
-# Web Automation on OrangeHRM Website with Selenium TestNG
+# Web Automation on OrangeHRM - Leave Apply - Feature with Selenium TestNG
 
 ## What is Automation?
 
@@ -50,11 +50,12 @@ Password: admin123
  
 
 ## Allure Report:
-
-
+![image](https://github.com/user-attachments/assets/fbc38410-b6e8-4656-9c0a-9edb599f8cfa)
+![image](https://github.com/user-attachments/assets/8160c26e-28b7-4c51-85f3-7ba9ca472ae2)
 
 ## Automation Output Video:
 
+https://github.com/user-attachments/assets/aff3c631-073f-4bf1-aa51-360afc6a1236
 
 
 
