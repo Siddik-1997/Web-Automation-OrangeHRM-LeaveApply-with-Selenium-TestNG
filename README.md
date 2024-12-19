@@ -55,7 +55,11 @@ Password: admin123
 
 ## Automation Output Video:
 
-https://github.com/user-attachments/assets/aff3c631-073f-4bf1-aa51-360afc6a1236
+
+https://github.com/user-attachments/assets/d3af48ba-c6cb-4cde-a0dc-f280c0627593
+
+
+
 
 
 
