@@ -18,8 +18,6 @@ public class LoginPage {
 
     @FindBy(xpath = "//a[contains(text(),'Logout')]")
     WebElement logOut;
-    //@FindBy(partialLinkText = "Logout")
-    //public WebElement logOutLink;
 
     public LoginPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
