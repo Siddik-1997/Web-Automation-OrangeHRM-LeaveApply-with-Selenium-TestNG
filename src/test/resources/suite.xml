@@ -1,0 +1,8 @@
+<suite thread-count="1" verbose="1" name="Apply Leave Automation project">
+    <test name="Apply Leave page test">
+        <classes>
+            <class name="runner.TestRunner"/>
+        </classes>
+    </test>
+
+</suite>

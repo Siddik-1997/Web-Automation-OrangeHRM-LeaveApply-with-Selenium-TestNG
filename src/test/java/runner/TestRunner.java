@@ -84,7 +84,7 @@ public class TestRunner extends Setup {
         Thread.sleep(200);
     }
 
-    @Test(priority = 9, description = " Verify that system restricts leave applications that exceed the user’s leave balance.")
+    @Test(priority = 9, description = " Verify that system restricts leave applications that exceed the user leave balance.")
     public void exceedsApplyLeave() throws InterruptedException {
         applyLeavePage = new ApplyLeavePage(driver);
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/leave/applyLeave");
