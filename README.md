@@ -31,19 +31,17 @@ TestNG is a testing framework for Java that is designed to be more flexible and 
 
 ## Test case check list based on the Scenerio:
 
-- Admin Login with Invalid credential. 
-- Admin Login with valid credential.
-- Create employee without username.
-- Create first employee.
-- create second employee.
-- Search existing employee with invalid name.
-- Search employee with valid name.
-- Update employee Id by random Id.
-- Search employee again with updated employee id.
-- Logout Admin.
-- Login second user with valid credential. 
-- Insert the second user's Gender, Blood, Address and email. 
-- Logout second user. 
+- Verify login functionality doesn't works with invalid credentials
+- Verify login functionality works properly with valid credentials.
+- Verify if user is redirected to the "Apply Leave" page correctly.
+- Verify user cannot apply for leave with an invalid date.
+- Verify that leave cannot be applied on Vacation or Off dates.
+- Verify that user can successfully apply for leave for a single day.
+- Verify that user can successfully apply for leave for multiple days.
+- Verify that user cannot apply for the same leave request twice.
+- Verify that system restricts leave applications that exceed the user’s leave balance.
+- Verify that user can log out successfully. 
+ 
 
 ## Allure Report:
 
