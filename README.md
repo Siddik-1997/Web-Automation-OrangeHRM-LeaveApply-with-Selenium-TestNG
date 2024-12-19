@@ -30,7 +30,7 @@ TestNG is a testing framework for Java that is designed to be more flexible and 
 ## Scenerio:
 - Visit this url: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 - Login to this system using the below username & credential:
-Username: Admin
+Username: Admin,
 Password: admin123
 - Then go to the Leave menu: https://opensource-demo.orangehrmlive.com/web/index.php/leave/applyLeave
 - Write test case for apply Leave feature
