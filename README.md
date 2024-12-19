@@ -27,7 +27,13 @@ TestNG is a testing framework for Java that is designed to be more flexible and 
 - For generating Allure Report use these commands:
 ```allure generate allure-results --clean -o allure-report``` and
 ```allure serve allure-results```
-
+## Scenerio:
+- Visit this url: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+- Login to this system using the below username & credential:
+Username: Admin,
+Password: admin123
+- Then go to the Leave menu: https://opensource-demo.orangehrmlive.com/web/index.php/leave/applyLeave
+- Write test case for apply Leave feature
 
 ## Test case check lists based on the Scenerio:
 
